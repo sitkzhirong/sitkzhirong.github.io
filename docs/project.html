@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Koh Zhi Rong</title>
+<title>CTR Prediction Research – Koh Zhi Rong</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,11 +90,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./project.html"> 
+    <a class="nav-link active" href="./project.html" aria-current="page"> 
 <span class="menu-text">Project</span></a>
   </li>  
   <li class="nav-item">
@@ -121,12 +121,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a>
   <ul class="collapse">
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
-  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
-  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
-  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#architecture-overview" id="toc-architecture-overview" class="nav-link" data-scroll-target="#architecture-overview">Architecture Overview</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#technologies-used" id="toc-technologies-used" class="nav-link" data-scroll-target="#technologies-used">Technologies Used</a></li>
+  <li><a href="#results-preview" id="toc-results-preview" class="nav-link" data-scroll-target="#results-preview">Results Preview</a></li>
+  <li><a href="#challenges" id="toc-challenges" class="nav-link" data-scroll-target="#challenges">Challenges</a></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next Steps</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -136,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Koh Zhi Rong</h1>
+<h1 class="title">CTR Prediction Research</h1>
 </div>
 
 
@@ -153,55 +156,63 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="text-align: center; margin: 40px 0;">
-<p><img src="images/profile/profile-photo.jpeg" class="img-fluid" style="border-radius: 50%; border: 5px solid #3498db; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" width="250"></p>
-<section id="koh-zhi-rong" class="level1">
-<h1>Koh Zhi Rong</h1>
-<p>Software Engineering Student | ML Researcher</p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This project focuses on Click-Through Rate (CTR) prediction for recommendation systems, exploring the integration of deep learning models with Large Language Models.</p>
+<section id="objectives" class="level3">
+<h3 class="anchored" data-anchor-id="objectives">Objectives</h3>
+<ul>
+<li>Implement DeepFM models for CTR prediction</li>
+<li>Integrate LLM embeddings into recommendation systems</li>
+<li>Evaluate hybrid architectures on real-world datasets</li>
+</ul>
 </section>
-</div>
-<hr>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>Hi! I’m Koh Zhi Rong, a Software Engineering student at Singapore Institute of Technology.</p>
-<p>I’m interested in machine learning, full-stack development, and data visualization. Currently, I’m working on research involving CTR prediction and recommendation systems.</p>
-<div class="quarto-figure quarto-figure-center" style="border-radius: 8px; display: block; margin: 20px auto;">
+<section id="architecture-overview" class="level3">
+<h3 class="anchored" data-anchor-id="architecture-overview">Architecture Overview</h3>
+<div class="quarto-figure quarto-figure-center" style="border-radius: 8px; border: 2px solid #ddd;">
 <figure class="figure">
-<p><img src="images/profile/sit-campus.jpeg" class="img-fluid figure-img" width="600"></p>
-<figcaption>At Singapore Institute of Technology</figcaption>
+<p><img src="images/profile/architecture-diagram.png" class="img-fluid figure-img" width="700"></p>
+<figcaption>Hybrid recommendation system architecture</figcaption>
 </figure>
 </div>
-<section id="background" class="level3">
-<h3 class="anchored" data-anchor-id="background">Background</h3>
+</section>
+<section id="methodology" class="level3">
+<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
+<p>We use the FuxiCTR framework with the Avazu dataset to train and evaluate our models. The approach combines:</p>
+<ol type="1">
+<li>Neural embedding layers for categorical features</li>
+<li>Deep learning architectures (DeepFM)</li>
+<li>LLM-based feature enhancement</li>
+</ol>
+</section>
+<section id="technologies-used" class="level3">
+<h3 class="anchored" data-anchor-id="technologies-used">Technologies Used</h3>
+<p><img src="images/profile/pytorch.png" class="img-fluid" width="80" alt="PyTorch"> <img src="images/profile/tensorflow.svg.png" class="img-fluid" width="80" alt="TensorFlow"> <img src="images/profile/python.png" class="img-fluid" width="80" alt="Python"></p>
+<p><strong>PyTorch</strong> | <strong>TensorFlow</strong> | <strong>Python</strong></p>
+</section>
+<section id="results-preview" class="level3">
+<h3 class="anchored" data-anchor-id="results-preview">Results Preview</h3>
+<div class="quarto-figure quarto-figure-center" style="border-radius: 8px;">
+<figure class="figure">
+<p><img src="images/profile/results-chart.png" class="img-fluid figure-img" width="650"></p>
+<figcaption>Preliminary performance comparison</figcaption>
+</figure>
+</div>
+</section>
+<section id="challenges" class="level3">
+<h3 class="anchored" data-anchor-id="challenges">Challenges</h3>
 <ul>
-<li><strong>Education</strong>: Software Engineering at SIT</li>
-<li><strong>Experience</strong>: Software Engineering Intern at Lumi5 Labs</li>
-<li><strong>Interests</strong>: Machine Learning, Web Development, Data Analysis</li>
+<li>Dataset compatibility and preprocessing</li>
+<li>Model training optimization on limited compute resources</li>
+<li>Balancing model complexity with inference speed</li>
 </ul>
 </section>
-<section id="technical-skills" class="level3">
-<h3 class="anchored" data-anchor-id="technical-skills">Technical Skills</h3>
+<section id="next-steps" class="level3">
+<h3 class="anchored" data-anchor-id="next-steps">Next Steps</h3>
 <ul>
-<li>🐍 <strong>Python</strong></li>
-<li>⚛️ <strong>React</strong> / <strong>Next.js</strong></li>
-<li>🤖 <strong>Machine Learning</strong> / <strong>TensorFlow</strong></li>
-<li>🐳 <strong>Docker</strong></li>
-<li>🗄️ <strong>PostgreSQL</strong></li>
-<li>☁️ <strong>AWS</strong></li>
-</ul>
-</section>
-<section id="experience" class="level3">
-<h3 class="anchored" data-anchor-id="experience">Experience</h3>
-<p><strong>Lumi5 Labs</strong> - Software Engineering Intern - Built full-stack financial portfolio management applications - Worked with Next.js, PostgreSQL, Docker, and CI/CD pipelines</p>
-<p><strong>Current Research</strong> - ML Research on CTR Prediction - Collaborating with Dr.&nbsp;Liu and Fu Bin from Shopee - Working with DeepFM models and LLM integration</p>
-<p>Feel free to explore my projects and visualizations on this site.</p>
-</section>
-<section id="contact" class="level3">
-<h3 class="anchored" data-anchor-id="contact">Contact</h3>
-<ul>
-<li>📧 Email: <a href="mailto:zhirong0613@gmail.com">zhirong0613@gmail.com</a></li>
-<li>💻 GitHub: <a href="https://github.com/sitkzhirong">github.com/sitkzhirong</a></li>
-<li>💼 LinkedIn: <a href="https://www.linkedin.com/in/koh-zhi-rong/">linkedin.com/in/koh-zhi-rong</a></li>
+<li>Fine-tune hybrid model architecture</li>
+<li>Conduct comprehensive performance evaluation</li>
+<li>Prepare results for publication</li>
 </ul>
 
 

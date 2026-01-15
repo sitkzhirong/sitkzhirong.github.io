@@ -1,11 +1,54 @@
 ---
-title: "temp_website"
+title: "Koh Zhi Rong"
 ---
 
-This is a Quarto website.
+:::{style="text-align: center; margin: 40px 0;"}
+![](images/profile/profile-photo.jpeg){width=250px style="border-radius: 50%; border: 5px solid #3498db; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Koh Zhi Rong
 
-```{r}
-1 + 1
-```
+Software Engineering Student | ML Researcher
+:::
+
+---
+
+## About Me
+
+Hi! I'm Koh Zhi Rong, a Software Engineering student at Singapore Institute of Technology.
+
+I'm interested in machine learning, full-stack development, and data visualization. Currently, I'm working on research involving CTR prediction and recommendation systems.
+
+![At Singapore Institute of Technology](images/profile/sit-campus.jpeg){width=600px style="border-radius: 8px; display: block; margin: 20px auto;"}
+
+### Background
+
+- **Education**: Software Engineering at SIT
+- **Experience**: Software Engineering Intern at Lumi5 Labs
+- **Interests**: Machine Learning, Web Development, Data Analysis
+
+### Technical Skills
+
+- 🐍 **Python**
+- ⚛️ **React** / **Next.js**
+- 🤖 **Machine Learning** / **TensorFlow**
+- 🐳 **Docker**
+- 🗄️ **PostgreSQL**
+- ☁️ **AWS**
+
+### Experience
+
+**Lumi5 Labs** - Software Engineering Intern
+- Built full-stack financial portfolio management applications
+- Worked with Next.js, PostgreSQL, Docker, and CI/CD pipelines
+
+**Current Research** - ML Research on CTR Prediction
+- Collaborating with Dr. Liu and Fu Bin from Shopee
+- Working with DeepFM models and LLM integration
+
+Feel free to explore my projects and visualizations on this site.
+
+### Contact
+
+- 📧 Email: [zhirong0613@gmail.com](mailto:zhirong0613@gmail.com)
+- 💻 GitHub: [github.com/sitkzhirong](https://github.com/sitkzhirong)
+- 💼 LinkedIn: [linkedin.com/in/koh-zhi-rong](https://www.linkedin.com/in/koh-zhi-rong/)

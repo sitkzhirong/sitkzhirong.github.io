@@ -1,0 +1,47 @@
+---
+title: "CTR Prediction Research"
+---
+
+## Project Overview
+
+This project focuses on Click-Through Rate (CTR) prediction for recommendation systems, exploring the integration of deep learning models with Large Language Models.
+
+### Objectives
+
+- Implement DeepFM models for CTR prediction
+- Integrate LLM embeddings into recommendation systems
+- Evaluate hybrid architectures on real-world datasets
+
+### Architecture Overview
+
+![Hybrid recommendation system architecture](images/profile/architecture-diagram.png){fig-align="center" width=700px style="border-radius: 8px; border: 2px solid #ddd;"}
+
+### Methodology
+
+We use the FuxiCTR framework with the Avazu dataset to train and evaluate our models. The approach combines:
+
+1. Neural embedding layers for categorical features
+2. Deep learning architectures (DeepFM)
+3. LLM-based feature enhancement
+
+### Technologies Used
+
+![PyTorch](images/profile/pytorch.png){width=80px} ![TensorFlow](images/profile/tensorflow.svg.png){width=80px} ![Python](images/profile/python.png){width=80px}
+
+**PyTorch** | **TensorFlow** | **Python**
+
+### Results Preview
+
+![Preliminary performance comparison](images/profile/results-chart.png){fig-align="center" width=650px style="border-radius: 8px;"}
+
+### Challenges
+
+- Dataset compatibility and preprocessing
+- Model training optimization on limited compute resources
+- Balancing model complexity with inference speed
+
+### Next Steps
+
+- Fine-tune hybrid model architecture
+- Conduct comprehensive performance evaluation
+- Prepare results for publication

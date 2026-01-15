@@ -1,0 +1,87 @@
+---
+title: "Reflection on the use of GenAI"
+---
+
+## Introduction
+
+For this assessment, I extensively used **Claude (by Anthropic)** as GenAI tool to help build this Quarto website. This reflection on the problems I encountered, and thoughts on how GenAI will shape my future work.
+
+![Claude](images/profile/claude.png){fig-align="center" width=500px style="border-radius: 8px; border: 2px solid #ddd;"}
+---
+
+## Choice of GenAI Tool
+
+### Why Claude?
+
+I chose **Claude** (via claude.ai) as my main GenAI assistant for few reasons:
+
+1. **Strong coding capabilities**: From my expereience if have the best coding capabilities among available GenAI tools
+2. **Long context window**: Can handle long conversation with good memory of my past inputs
+
+I also occasionally used **ChatGPT** and **Gemini** , but Claude was my main tool.
+
+---
+
+## How GenAI Helped Me
+
+### 1. HTML/CSS Styling Issues
+
+**Challenge**: HTML and CCS has been a hasel to me in the past, and I struggled to get the layout and styling right for my Quarto site. Although it is not difficult it would require time to research and test.
+
+**How Claude helped**:
+- Quickly able to bring my idea to life with working HTML/CSS snippets
+- Able to iterate rapidly by asking for modifications
+
+**Example transformation**:
+```html
+<!-- This didn't work -->
+<div style="text-align: center;">
+  <img src="image.jpg" style="width: 250px;">
+</div>
+
+<!-- Claude suggested this -->
+![](image.jpg){width=250px style="..."}
+```
+
+## Benefits of Using GenAI
+
+### 1. **Faster Problem-Solving**
+Instead of searching through the web and stackoverflow, it helpped saved me time by getting direct answers.
+
+### 2. **Learning While Doing**
+Claude didn't just give me code, it is able to explain concepts.
+
+### 3. **Error Debugging**
+Error debugging was always a problem for me. Claude helped me identify and fix errors quickly.
+
+---
+
+## Challenges of Using GenAI
+
+### 1. **Not Always Correct on First Try**
+The HTML rendering issue took multiple iterations to solve. Claude's first suggestion didn't work, and we had to try several approaches.
+
+### 2. **Context Limitations**
+Sometimes Claude forgot some parts of our conversation and give contridicting information.
+
+### 3. **Over-Complicated Solutions**
+Sometime over complicate things. For example, I asked for a simple layout change but got a complex CSS grid solution.
+
+---
+
+## Future Applications
+
+### For Academic Work
+
+**Course Projects**:
+- Quick prototyping of ideas before deep diving
+- Debugging complex code errors
+- Understanding new libraries or frameworks
+- Getting explanations of academic concepts in simpler terms
+
+**Research**:
+- Literature review assistance (summarizing papers)
+- Data analysis code generation
+- Writing assistance for reports
+
+---

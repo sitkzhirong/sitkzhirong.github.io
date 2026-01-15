@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Koh Zhi Rong</title>
+<title>Reflection on the use of GenAI – Koh Zhi Rong</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -90,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -102,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Data Visualization</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./reflection.html"> 
+    <a class="nav-link active" href="./reflection.html" aria-current="page"> 
 <span class="menu-text">Reflection</span></a>
   </li>  
 </ul>
@@ -121,12 +156,31 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#claude" id="toc-claude" class="nav-link" data-scroll-target="#claude"><img src="images/profile/claude.png" class="img-fluid quarto-figure quarto-figure-center" style="border-radius: 8px; border: 2px solid #ddd;" width="500" alt="Claude"></a></li>
+  <li><a href="#choice-of-genai-tool" id="toc-choice-of-genai-tool" class="nav-link" data-scroll-target="#choice-of-genai-tool">Choice of GenAI Tool</a>
   <ul class="collapse">
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
-  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
-  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
-  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
+  <li><a href="#why-claude" id="toc-why-claude" class="nav-link" data-scroll-target="#why-claude">Why Claude?</a></li>
+  </ul></li>
+  <li><a href="#how-genai-helped-me" id="toc-how-genai-helped-me" class="nav-link" data-scroll-target="#how-genai-helped-me">How GenAI Helped Me</a>
+  <ul class="collapse">
+  <li><a href="#htmlcss-styling-issues" id="toc-htmlcss-styling-issues" class="nav-link" data-scroll-target="#htmlcss-styling-issues">1. HTML/CSS Styling Issues</a></li>
+  </ul></li>
+  <li><a href="#benefits-of-using-genai" id="toc-benefits-of-using-genai" class="nav-link" data-scroll-target="#benefits-of-using-genai">Benefits of Using GenAI</a>
+  <ul class="collapse">
+  <li><a href="#faster-problem-solving" id="toc-faster-problem-solving" class="nav-link" data-scroll-target="#faster-problem-solving">1. <strong>Faster Problem-Solving</strong></a></li>
+  <li><a href="#learning-while-doing" id="toc-learning-while-doing" class="nav-link" data-scroll-target="#learning-while-doing">2. <strong>Learning While Doing</strong></a></li>
+  <li><a href="#error-debugging" id="toc-error-debugging" class="nav-link" data-scroll-target="#error-debugging">3. <strong>Error Debugging</strong></a></li>
+  </ul></li>
+  <li><a href="#challenges-of-using-genai" id="toc-challenges-of-using-genai" class="nav-link" data-scroll-target="#challenges-of-using-genai">Challenges of Using GenAI</a>
+  <ul class="collapse">
+  <li><a href="#not-always-correct-on-first-try" id="toc-not-always-correct-on-first-try" class="nav-link" data-scroll-target="#not-always-correct-on-first-try">1. <strong>Not Always Correct on First Try</strong></a></li>
+  <li><a href="#context-limitations" id="toc-context-limitations" class="nav-link" data-scroll-target="#context-limitations">2. <strong>Context Limitations</strong></a></li>
+  <li><a href="#over-complicated-solutions" id="toc-over-complicated-solutions" class="nav-link" data-scroll-target="#over-complicated-solutions">3. <strong>Over-Complicated Solutions</strong></a></li>
+  </ul></li>
+  <li><a href="#future-applications" id="toc-future-applications" class="nav-link" data-scroll-target="#future-applications">Future Applications</a>
+  <ul class="collapse">
+  <li><a href="#for-academic-work" id="toc-for-academic-work" class="nav-link" data-scroll-target="#for-academic-work">For Academic Work</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -136,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Koh Zhi Rong</h1>
+<h1 class="title">Reflection on the use of GenAI</h1>
 </div>
 
 
@@ -153,56 +207,81 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="text-align: center; margin: 40px 0;">
-<p><img src="images/profile/profile-photo.jpeg" class="img-fluid" style="border-radius: 50%; border: 5px solid #3498db; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" width="250"></p>
-<section id="koh-zhi-rong" class="level1">
-<h1>Koh Zhi Rong</h1>
-<p>Software Engineering Student | ML Researcher</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>For this assessment, I extensively used <strong>Claude (by Anthropic)</strong> as GenAI tool to help build this Quarto website. This reflection on the problems I encountered, and thoughts on how GenAI will shape my future work.</p>
 </section>
-</div>
+<section id="claude" class="level2">
+<h2 class="anchored" data-anchor-id="claude"><img src="images/profile/claude.png" class="img-fluid quarto-figure quarto-figure-center" style="border-radius: 8px; border: 2px solid #ddd;" width="500" alt="Claude"></h2>
+</section>
+<section id="choice-of-genai-tool" class="level2">
+<h2 class="anchored" data-anchor-id="choice-of-genai-tool">Choice of GenAI Tool</h2>
+<section id="why-claude" class="level3">
+<h3 class="anchored" data-anchor-id="why-claude">Why Claude?</h3>
+<p>I chose <strong>Claude</strong> (via claude.ai) as my main GenAI assistant for few reasons:</p>
+<ol type="1">
+<li><strong>Strong coding capabilities</strong>: From my expereience if have the best coding capabilities among available GenAI tools</li>
+<li><strong>Long context window</strong>: Can handle long conversation with good memory of my past inputs</li>
+</ol>
+<p>I also occasionally used <strong>ChatGPT</strong> and <strong>Gemini</strong> , but Claude was my main tool.</p>
 <hr>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>Hi! I’m Koh Zhi Rong, a Software Engineering student at Singapore Institute of Technology.</p>
-<p>I’m interested in machine learning, full-stack development, and data visualization. Currently, I’m working on research involving CTR prediction and recommendation systems.</p>
-<div class="quarto-figure quarto-figure-center" style="border-radius: 8px; display: block; margin: 20px auto;">
-<figure class="figure">
-<p><img src="images/profile/sit-campus.jpeg" class="img-fluid figure-img" width="600"></p>
-<figcaption>At Singapore Institute of Technology</figcaption>
-</figure>
-</div>
-<section id="background" class="level3">
-<h3 class="anchored" data-anchor-id="background">Background</h3>
-<ul>
-<li><strong>Education</strong>: Software Engineering at SIT</li>
-<li><strong>Experience</strong>: Software Engineering Intern at Lumi5 Labs</li>
-<li><strong>Interests</strong>: Machine Learning, Web Development, Data Analysis</li>
-</ul>
 </section>
-<section id="technical-skills" class="level3">
-<h3 class="anchored" data-anchor-id="technical-skills">Technical Skills</h3>
-<ul>
-<li>🐍 <strong>Python</strong></li>
-<li>⚛️ <strong>React</strong> / <strong>Next.js</strong></li>
-<li>🤖 <strong>Machine Learning</strong> / <strong>TensorFlow</strong></li>
-<li>🐳 <strong>Docker</strong></li>
-<li>🗄️ <strong>PostgreSQL</strong></li>
-<li>☁️ <strong>AWS</strong></li>
-</ul>
 </section>
-<section id="experience" class="level3">
-<h3 class="anchored" data-anchor-id="experience">Experience</h3>
-<p><strong>Lumi5 Labs</strong> - Software Engineering Intern - Built full-stack financial portfolio management applications - Worked with Next.js, PostgreSQL, Docker, and CI/CD pipelines</p>
-<p><strong>Current Research</strong> - ML Research on CTR Prediction - Collaborating with Dr.&nbsp;Liu and Fu Bin from Shopee - Working with DeepFM models and LLM integration</p>
-<p>Feel free to explore my projects and visualizations on this site.</p>
+<section id="how-genai-helped-me" class="level2">
+<h2 class="anchored" data-anchor-id="how-genai-helped-me">How GenAI Helped Me</h2>
+<section id="htmlcss-styling-issues" class="level3">
+<h3 class="anchored" data-anchor-id="htmlcss-styling-issues">1. HTML/CSS Styling Issues</h3>
+<p><strong>Challenge</strong>: HTML and CCS has been a hasel to me in the past, and I struggled to get the layout and styling right for my Quarto site. Although it is not difficult it would require time to research and test.</p>
+<p><strong>How Claude helped</strong>: - Quickly able to bring my idea to life with working HTML/CSS snippets - Able to iterate rapidly by asking for modifications</p>
+<p><strong>Example transformation</strong>:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- This didn't work --&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> style</span><span class="op">=</span><span class="st">"text-align: center;"</span><span class="dt">&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"image.jpg"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"width: 250px;"</span><span class="dt">&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Claude suggested this --&gt;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>![](image.jpg){width=250px style="..."}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="contact" class="level3">
-<h3 class="anchored" data-anchor-id="contact">Contact</h3>
-<ul>
-<li>📧 Email: <a href="mailto:zhirong0613@gmail.com">zhirong0613@gmail.com</a></li>
-<li>💻 GitHub: <a href="https://github.com/sitkzhirong">github.com/sitkzhirong</a></li>
-<li>💼 LinkedIn: <a href="https://www.linkedin.com/in/koh-zhi-rong/">linkedin.com/in/koh-zhi-rong</a></li>
-</ul>
+</section>
+<section id="benefits-of-using-genai" class="level2">
+<h2 class="anchored" data-anchor-id="benefits-of-using-genai">Benefits of Using GenAI</h2>
+<section id="faster-problem-solving" class="level3">
+<h3 class="anchored" data-anchor-id="faster-problem-solving">1. <strong>Faster Problem-Solving</strong></h3>
+<p>Instead of searching through the web and stackoverflow, it helpped saved me time by getting direct answers.</p>
+</section>
+<section id="learning-while-doing" class="level3">
+<h3 class="anchored" data-anchor-id="learning-while-doing">2. <strong>Learning While Doing</strong></h3>
+<p>Claude didn’t just give me code, it is able to explain concepts.</p>
+</section>
+<section id="error-debugging" class="level3">
+<h3 class="anchored" data-anchor-id="error-debugging">3. <strong>Error Debugging</strong></h3>
+<p>Error debugging was always a problem for me. Claude helped me identify and fix errors quickly.</p>
+<hr>
+</section>
+</section>
+<section id="challenges-of-using-genai" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-of-using-genai">Challenges of Using GenAI</h2>
+<section id="not-always-correct-on-first-try" class="level3">
+<h3 class="anchored" data-anchor-id="not-always-correct-on-first-try">1. <strong>Not Always Correct on First Try</strong></h3>
+<p>The HTML rendering issue took multiple iterations to solve. Claude’s first suggestion didn’t work, and we had to try several approaches.</p>
+</section>
+<section id="context-limitations" class="level3">
+<h3 class="anchored" data-anchor-id="context-limitations">2. <strong>Context Limitations</strong></h3>
+<p>Sometimes Claude forgot some parts of our conversation and give contridicting information.</p>
+</section>
+<section id="over-complicated-solutions" class="level3">
+<h3 class="anchored" data-anchor-id="over-complicated-solutions">3. <strong>Over-Complicated Solutions</strong></h3>
+<p>Sometime over complicate things. For example, I asked for a simple layout change but got a complex CSS grid solution.</p>
+<hr>
+</section>
+</section>
+<section id="future-applications" class="level2">
+<h2 class="anchored" data-anchor-id="future-applications">Future Applications</h2>
+<section id="for-academic-work" class="level3">
+<h3 class="anchored" data-anchor-id="for-academic-work">For Academic Work</h3>
+<p><strong>Course Projects</strong>: - Quick prototyping of ideas before deep diving - Debugging complex code errors - Understanding new libraries or frameworks - Getting explanations of academic concepts in simpler terms</p>
+<p><strong>Research</strong>: - Literature review assistance (summarizing papers) - Data analysis code generation - Writing assistance for reports</p>
+<hr>
 
 
 </section>
