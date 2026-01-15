@@ -1,14 +1,16 @@
 ---
-title: "Data Visualization"
+title: "DATA VISUALIZATION"
 ---
 
-## Financial Planning Visualization
+## FINANCIAL PLANNING VISUALIZATION
 
-### Overview
+<div class="brutal-box-green">
+**PROJECT CONTEXT**
 
-This visualization shows the projected growth of CPF (Central Provident Fund) balances over time, created as part of my database systems coursework.
+This visualization was created for my **Fintech Finance Course** at SIT, demonstrating the long-term impact of compound interest on Singapore's Central Provident Fund (CPF) savings.
+</div>
 
-### The Visualization
+### THE VISUALIZATION
 ```{r}
 #| echo: false
 #| warning: false
@@ -23,7 +25,7 @@ ages <- 25:65
 starting_salary <- 3500
 increment_rate <- 0.03
 oa_rate <- 0.025  # Ordinary Account interest
-sa_rate <- 0.04   # Special Account interest  
+sa_rate <- 0.04   # Special Account interest
 ma_rate <- 0.04   # MediSave Account interest
 
 # Initialize balances
@@ -39,17 +41,17 @@ ma_balance[1] <- 0
 for (i in 2:length(ages)) {
   year <- i - 1
   salary <- starting_salary * (1 + increment_rate)^year
-  
+
   # Monthly contributions (simplified CPF rates)
   monthly_oa <- salary * 0.23
   monthly_sa <- salary * 0.16
   monthly_ma <- salary * 0.08
-  
+
   # Annual contributions
   annual_oa <- monthly_oa * 12
   annual_sa <- monthly_sa * 12
   annual_ma <- monthly_ma * 12
-  
+
   # Apply interest and add contributions
   oa_balance[i] <- oa_balance[i-1] * (1 + oa_rate) + annual_oa
   sa_balance[i] <- sa_balance[i-1] * (1 + sa_rate) + annual_sa
@@ -60,14 +62,14 @@ for (i in 2:length(ages)) {
 df <- data.frame(
   Age = rep(ages, 3),
   Balance = c(oa_balance, sa_balance, ma_balance),
-  Account = rep(c("Ordinary Account", "Special Account", "MediSave Account"), 
+  Account = rep(c("Ordinary Account", "Special Account", "MediSave Account"),
                 each = length(ages))
 )
 
 # Create the visualization
 ggplot(df, aes(x = Age, y = Balance, color = Account, group = Account)) +
   geom_line(size = 1.2) +
-  scale_color_manual(values = c("Ordinary Account" = "#3498db", 
+  scale_color_manual(values = c("Ordinary Account" = "#3498db",
                                   "Special Account" = "#e74c3c",
                                   "MediSave Account" = "#2ecc71")) +
   scale_y_continuous(labels = scales::dollar_format(prefix = "$", big.mark = ",")) +
@@ -87,17 +89,31 @@ ggplot(df, aes(x = Age, y = Balance, color = Account, group = Account)) +
   )
 ```
 
-### What Was Visualized
+<hr>
 
-This line chart displays **quantitative financial data** with the following numeric components:
+## WHAT WAS VISUALIZED
 
-- **X-axis**: Age in years (25 to 65) - continuous numeric variable
-- **Y-axis**: Account balance in Singapore Dollars (SGD) - monetary values
-- **Three line series**: Each representing a different CPF account type with their respective balances
+<div class="brutal-grid-3">
+<div class="brutal-box">
+**X-AXIS**
 
-The visualization encodes **real numerical values** showing how money grows over time based on compound interest calculations.
+Age in years (25 to 65) - continuous numeric variable representing career progression
+</div>
 
-### Sample Numerical Data
+<div class="brutal-box">
+**Y-AXIS**
+
+Account balance in SGD - monetary values showing accumulated savings over time
+</div>
+
+<div class="brutal-box">
+**THREE SERIES**
+
+Ordinary, Special, MediSave Accounts - each representing different CPF account types with distinct interest rates
+</div>
+</div>
+
+### SAMPLE NUMERICAL DATA
 ```{r}
 #| echo: false
 
@@ -112,105 +128,161 @@ sample_data <- data.frame(
   MediSave = sprintf("$%s", format(round(ma_balance[sample_indices]), big.mark = ",", trim = TRUE))
 )
 
-knitr::kable(sample_data, 
+knitr::kable(sample_data,
              col.names = c("Age", "Ordinary Account", "Special Account", "MediSave Account"),
              align = c("r", "r", "r", "r"))
 ```
 
-### Data Source and Assumptions
+<hr>
 
-The numerical data is calculated based on:
+## DATA SOURCE AND ASSUMPTIONS
 
-**Official rates:**
-- CPF contribution rates from CPF Board (2024)
-- Interest rates: OA (2.5% p.a.), SA (4% p.a.), MA (4% p.a.)
+<div class="brutal-grid-2">
+<div class="brutal-box">
+**OFFICIAL RATES**
 
-**Calculation assumptions:**
-- Starting monthly salary: SGD $3,500
-- Annual salary increment: 3%
-- Contribution percentages: OA (23%), SA (16%), MA (8%)
-- Time horizon: 40 years (age 25-65)
-- No voluntary contributions or withdrawals
+— CPF contribution rates from CPF Board (2024)
 
-All values are computed using **compound interest formulas** with these parameters.
+— Interest rates: OA (2.5% p.a.), SA (4% p.a.), MA (4% p.a.)
 
-### Rationale for Visualization Method
+— Based on actual Singapore government policies
+</div>
 
-I chose a **line chart** because:
+<div class="brutal-box">
+**CALCULATION ASSUMPTIONS**
 
-1. **Time-series data**: Line charts excel at showing how numeric values change over continuous time periods
+— Starting monthly salary: SGD $3,500
 
-2. **Trend visibility**: The upward curves clearly show exponential growth from compound interest - the steeper slopes in later years are immediately visible
+— Annual salary increment: 3%
 
-3. **Multiple comparisons**: Three distinct colors allow easy comparison of how different account types grow at different rates
+— Contribution percentages: OA (23%), SA (16%), MA (8%)
 
-4. **Continuous nature**: Age progression is continuous, not discrete - line charts represent this better than bar charts
+— Time horizon: 40 years (age 25-65)
 
-5. **Financial convention**: Line charts are standard for showing investment growth, making interpretation intuitive
+— No voluntary contributions or withdrawals
+</div>
+</div>
 
-6. **Numeric relationships**: The visual distance between lines represents actual dollar differences
+<hr>
 
-**Why NOT alternatives:**
+## RATIONALE FOR VISUALIZATION METHOD
 
-- ❌ **Bar chart**: Would create visual clutter with 40+ bars per account type
-- ❌ **Stacked area chart**: Makes it difficult to read individual account values accurately  
-- ❌ **Scatter plot**: Would suggest discrete data points rather than continuous progression
-- ❌ **Pie chart**: Cannot show changes over time
+<div class="brutal-box-green">
+**WHY LINE CHART?**
 
-### Story Behind This Visualization
+I chose a **line chart** because it's the optimal choice for displaying time-series financial data with multiple comparisons.
+</div>
 
-#### The Context
+<div class="brutal-grid-2">
+<div class="brutal-box">
+**ADVANTAGES OF LINE CHART**
 
-This visualization was created for my **Fintech Finance Course** at SIT. The assignment involved:
+**Time-series excellence:** Shows how numeric values change over continuous time periods
 
-1. Planning retirement for a hypothetical individual
-2. Display the impact of compound interest over time
-3. Visualize the results meaningfully
+**Trend visibility:** Upward curves clearly show exponential growth - steeper slopes in later years are immediately visible
 
+**Multiple comparisons:** Three distinct colors enable easy comparison of different account growth rates
 
-#### Key Insight Discovered
+**Financial convention:** Standard for investment growth visualization, making interpretation intuitive
+</div>
 
+<div class="brutal-box">
+**WHY NOT ALTERNATIVES**
+
+**Bar chart:** Would create visual clutter with 40+ bars per account type
+
+**Stacked area chart:** Makes it difficult to read individual account values accurately
+
+**Scatter plot:** Would suggest discrete data points rather than continuous progression
+
+**Pie chart:** Cannot show changes over time
+</div>
+</div>
+
+<hr>
+
+## KEY INSIGHT DISCOVERED
+
+<div class="brutal-box-yellow">
 The visualization revealed something surprising: **the last 10 years of savings (age 55-65) contribute almost as much absolute value as the first 20 years (age 25-45)**.
 
-Why? Compound interest. By year 30, you're earning interest on decades of contributions AND their accumulated interest. The raw numbers showed this, but the **upward curving lines** made it intuitively clear.
+**Why?** Compound interest. By year 30, you're earning interest on decades of contributions AND their accumulated interest. The raw numbers showed this, but the **upward curving lines** made it intuitively clear.
+</div>
 
+<hr>
 
-### Key Insights from the Data
+## KEY INSIGHTS FROM THE DATA
 
-**Numerical findings:**
+<div class="brutal-grid-3">
+<div class="brutal-box-green">
+**COMPOUND INTEREST POWER**
 
-1. **Compound interest power**: 
-   - Age 30 (5 years): Total ≈ $115,000
-   - Age 50 (25 years): Total ≈ $800,000
-   - **Insight**: The middle 20 years contribute 7x more than the first 5 years
+**Age 30** (5 years): Total ≈ $115,000
 
-2. **Account type differences**:
-   - Special Account grows at 4% vs. Ordinary Account at 2.5%
-   - Over 40 years: This 1.5% difference creates over $80,000 additional value
-   - **Takeaway**: Small percentage differences compound dramatically over time
+**Age 50** (25 years): Total ≈ $800,000
 
-3. **Early vs. late contributions**:
-   - $1,000 contributed at age 25 grows to ~$2,685 by age 65 (2.69x)
-   - $1,000 contributed at age 45 grows to ~$1,480 by age 65 (1.48x)
-   - **Conclusion**: Starting early provides 82% more growth per dollar invested
+**INSIGHT:** The middle 20 years contribute **7x more** than the first 5 years
+</div>
 
-### Educational Value
+<div class="brutal-box-pink">
+**ACCOUNT TYPE DIFFERENCES**
 
-This project helped me understand:
+**Special Account:** 4% interest
 
-1. **Data visualization principles**: How to choose appropriate chart types for quantitative time-series data
-2. **Compound interest mathematics**: The exponential nature of investment growth with concrete numbers
-3. **Effective communication**: Transforming raw numerical data into clear, actionable insights
-5. **Financial literacy**: Understanding Singapore's CPF system through quantitative modeling
+**Ordinary Account:** 2.5% interest
 
----
+**TAKEAWAY:** This 1.5% difference creates over **$80,000 additional value** over 40 years
+</div>
 
-## Conclusion
+<div class="brutal-box-yellow">
+**EARLY VS LATE CONTRIBUTIONS**
 
-This visualization successfully transforms **quantitative financial data** (ages, currency amounts, interest rates) into a visual format that reveals patterns invisible in raw numbers. The line chart immediately communicates that:
+**$1,000 at age 25:** grows to ~$2,685 (2.69x)
 
-- Early contributions have disproportionate impact (visible in curve accumulation)
-- Higher interest accounts grow significantly faster (visible in line separation)
-- Growth accelerates exponentially over time (visible in steepening curves)
+**$1,000 at age 45:** grows to ~$1,480 (1.48x)
+
+**CONCLUSION:** Starting early provides **82% more growth** per dollar invested
+</div>
+</div>
+
+<hr>
+
+## EDUCATIONAL VALUE
+
+<div class="brutal-grid-2">
+<div class="brutal-box">
+**DATA VISUALIZATION PRINCIPLES**
+
+Learned how to choose appropriate chart types for quantitative time-series data and apply effective visual encoding.
+</div>
+
+<div class="brutal-box">
+**COMPOUND INTEREST MATHEMATICS**
+
+Understood the exponential nature of investment growth through concrete numerical examples.
+</div>
+
+<div class="brutal-box">
+**EFFECTIVE COMMUNICATION**
+
+Mastered transforming raw numerical data into clear, actionable insights that non-technical audiences can understand.
+</div>
+
+<div class="brutal-box">
+**FINANCIAL LITERACY**
+
+Gained deep understanding of Singapore's CPF system through hands-on quantitative modeling and analysis.
+</div>
+</div>
+
+<hr>
+
+## CONCLUSION
+
+**Early contributions have disproportionate impact** - visible in curve accumulation patterns
+
+**Higher interest accounts grow significantly faster** - visible in progressive line separation
+
+**Growth accelerates exponentially over time** - visible in steepening curves toward retirement age
 
 The key achievement: converting hundreds of individual numeric calculations into a single comprehensible story about the mathematical power of compound interest and the importance of early financial planning.

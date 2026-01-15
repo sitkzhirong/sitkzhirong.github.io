@@ -3,52 +3,122 @@ title: "Koh Zhi Rong"
 ---
 
 :::{style="text-align: center; margin: 40px 0;"}
-![](images/profile/profile-photo.jpeg){width=250px style="border-radius: 50%; border: 5px solid #3498db; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"}
+![](images/profile/profile-photo.jpeg){width=300px style="border: 4px solid #00ff88;"}
 
-# Koh Zhi Rong
+# KOH ZHI RONG
 
-Software Engineering Student | ML Researcher
+SOFTWARE ENGINEER | ML RESEARCHER
 :::
 
----
+<hr>
 
-## About Me
+## ABOUT ME
 
 Hi! I'm Koh Zhi Rong, a Software Engineering student at Singapore Institute of Technology.
 
 I'm interested in machine learning, full-stack development, and data visualization. Currently, I'm working on research involving CTR prediction and recommendation systems.
 
-![At Singapore Institute of Technology](images/profile/sit-campus.jpeg){width=600px style="border-radius: 8px; display: block; margin: 20px auto;"}
+![At Singapore Institute of Technology](images/profile/sit-campus.jpg){width=100% style="border: 3px solid #ffffff;"}
 
-### Background
+<div class="brutal-grid-3">
+<div class="brutal-box-green">
+**EDUCATION**
 
-- **Education**: Software Engineering at SIT
-- **Experience**: Software Engineering Intern at Lumi5 Labs
-- **Interests**: Machine Learning, Web Development, Data Analysis
+Software Engineering at Singapore Institute of Technology (SIT)
+</div>
 
-### Technical Skills
+<div class="brutal-box-pink">
+**PAST ROLE**
 
-- 🐍 **Python**
-- ⚛️ **React** / **Next.js**
-- 🤖 **Machine Learning** / **TensorFlow**
-- 🐳 **Docker**
-- 🗄️ **PostgreSQL**
-- ☁️ **AWS**
+Software Engineering Intern at Lumi5 Labs
+</div>
 
-### Experience
+<div class="brutal-box-yellow">
+**RESEARCH**
 
-**Lumi5 Labs** - Software Engineering Intern
-- Built full-stack financial portfolio management applications
-- Worked with Next.js, PostgreSQL, Docker, and CI/CD pipelines
+Machine Learning - CTR Prediction & Recommendation Systems
+</div>
+</div>
 
-**Current Research** - ML Research on CTR Prediction
-- Collaborating with Dr. Liu and Fu Bin from Shopee
-- Working with DeepFM models and LLM integration
+<hr>
 
-Feel free to explore my projects and visualizations on this site.
+## TECHNICAL SKILLS
 
-### Contact
+<div class="skill-grid">
+<div class="skill-box">PYTHON</div>
+<div class="skill-box">REACT</div>
+<div class="skill-box">NEXT.JS</div>
+<div class="skill-box">TENSORFLOW</div>
+<div class="skill-box">PYTORCH</div>
+<div class="skill-box">DOCKER</div>
+<div class="skill-box">POSTGRESQL</div>
+<div class="skill-box">AWS</div>
+<div class="skill-box">DATA VIZ</div>
+<div class="skill-box">CI/CD</div>
+</div>
 
-- 📧 Email: [zhirong0613@gmail.com](mailto:zhirong0613@gmail.com)
-- 💻 GitHub: [github.com/sitkzhirong](https://github.com/sitkzhirong)
-- 💼 LinkedIn: [linkedin.com/in/koh-zhi-rong](https://www.linkedin.com/in/koh-zhi-rong/)
+<hr>
+
+## EXPERIENCE
+
+<div class="experience-list">
+
+<div class="experience-item">
+<div class="experience-date">CURRENT</div>
+<div class="experience-title">ML RESEARCH</div>
+<div class="experience-company">CTR PREDICTION</div>
+
+— Implementing DeepFM models for click-through rate prediction
+
+— Integrating Large Language Model embeddings into recommendation systems
+
+— Working with Dr. Liu and Fu Bin from Shopee
+
+— Using FuxiCTR framework and Avazu dataset
+</div>
+
+<div class="experience-item">
+<div class="experience-date">2024</div>
+<div class="experience-title">SOFTWARE ENGINEERING INTERN</div>
+<div class="experience-company">LUMI5 LABS</div>
+
+— Built full-stack financial portfolio management applications
+
+— Developed features using Next.js, React, and TypeScript
+
+— Implemented backend APIs with PostgreSQL database
+
+— Set up Docker containerization and CI/CD pipelines
+
+— Collaborated with cross-functional teams in agile environment
+</div>
+
+<div class="experience-item">
+<div class="experience-date">2023 - PRESENT</div>
+<div class="experience-title">SOFTWARE ENGINEERING STUDENT</div>
+<div class="experience-company">SINGAPORE INSTITUTE OF TECHNOLOGY</div>
+
+— Studying software engineering with focus on ML and full-stack development
+
+— Completed projects in data visualization, fintech, and web development
+
+— Active in research and coursework involving modern frameworks
+</div>
+
+</div>
+
+<hr>
+
+## CONNECT
+
+<div class="contact-buttons">
+<a href="mailto:zhirong0613@gmail.com" class="contact-btn">
+EMAIL
+</a>
+<a href="https://github.com/sitkzhirong" class="contact-btn" target="_blank">
+GITHUB
+</a>
+<a href="https://www.linkedin.com/in/koh-zhi-rong/" class="contact-btn" target="_blank">
+LINKEDIN
+</a>
+</div>

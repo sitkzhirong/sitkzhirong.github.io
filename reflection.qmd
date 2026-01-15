@@ -1,38 +1,47 @@
 ---
-title: "Reflection on the use of GenAI"
+title: "GENAI REFLECTION"
 ---
 
-## Introduction
+<div class="brutal-box-green">
+**OVERVIEW**
 
-For this assessment, I extensively used **Claude (by Anthropic)** as GenAI tool to help build this Quarto website. This reflection on the problems I encountered, and thoughts on how GenAI will shape my future work.
+For this assessment, I extensively used **Claude (by Anthropic)** as my GenAI tool to help build this Quarto website. This is my reflection on the problems I encountered and thoughts on how GenAI will shape my future work.
+</div>
 
-![Claude](images/profile/claude.png){fig-align="center" width=500px style="border-radius: 8px; border: 2px solid #ddd;"}
----
+![Claude](images/profile/claude.png){fig-align="center" width=800px style="border: 4px solid #ffffff;"}
 
-## Choice of GenAI Tool
+<hr>
 
-### Why Claude?
+## CHOICE OF GENAI TOOL
 
-I chose **Claude** (via claude.ai) as my main GenAI assistant for few reasons:
+<div class="brutal-box">
+**WHY CLAUDE?**
 
-1. **Strong coding capabilities**: From my expereience if have the best coding capabilities among available GenAI tools
-2. **Long context window**: Can handle long conversation with good memory of my past inputs
+I chose **Claude** (via claude.ai) as my main GenAI assistant for several compelling reasons:
 
-I also occasionally used **ChatGPT** and **Gemini** , but Claude was my main tool.
+— **Strong Coding Capabilities:** Best-in-class coding abilities among available GenAI tools
 
----
+— **Long Context Window:** Handles extended conversations with excellent memory retention
 
-## How GenAI Helped Me
+I also occasionally used **ChatGPT** and **Gemini**, but Claude was my primary development assistant.
+</div>
 
-### 1. HTML/CSS Styling Issues
+<hr>
 
-**Challenge**: HTML and CCS has been a hasel to me in the past, and I struggled to get the layout and styling right for my Quarto site. Although it is not difficult it would require time to research and test.
+## HOW GENAI HELPED ME
 
-**How Claude helped**:
-- Quickly able to bring my idea to life with working HTML/CSS snippets
-- Able to iterate rapidly by asking for modifications
+<div class="brutal-box-pink">
+**HTML/CSS STYLING ISSUES**
 
-**Example transformation**:
+**Challenge:** HTML and CSS have been challenging for me in the past. Although not inherently difficult, getting the layout and styling right requires significant time for research and testing.
+
+**How Claude helped:**
+
+— Quickly transformed my ideas into working HTML/CSS snippets
+
+— Enabled rapid iteration through simple modification requests
+
+**Example transformation:**
 ```html
 <!-- This didn't work -->
 <div style="text-align: center;">
@@ -42,46 +51,114 @@ I also occasionally used **ChatGPT** and **Gemini** , but Claude was my main too
 <!-- Claude suggested this -->
 ![](image.jpg){width=250px style="..."}
 ```
+</div>
 
-## Benefits of Using GenAI
+<hr>
 
-### 1. **Faster Problem-Solving**
-Instead of searching through the web and stackoverflow, it helpped saved me time by getting direct answers.
+## BENEFITS VS CHALLENGES
 
-### 2. **Learning While Doing**
-Claude didn't just give me code, it is able to explain concepts.
+<div class="two-column">
 
-### 3. **Error Debugging**
-Error debugging was always a problem for me. Claude helped me identify and fix errors quickly.
+<div>
+<h3>BENEFITS</h3>
 
----
+<div class="brutal-box-green">
+**FASTER PROBLEM-SOLVING**
 
-## Challenges of Using GenAI
+Instead of searching through documentation and Stack Overflow, Claude provided direct answers, saving significant development time and reducing context switching.
+</div>
 
-### 1. **Not Always Correct on First Try**
-The HTML rendering issue took multiple iterations to solve. Claude's first suggestion didn't work, and we had to try several approaches.
+<div class="brutal-box-green">
+**LEARNING WHILE DOING**
 
-### 2. **Context Limitations**
-Sometimes Claude forgot some parts of our conversation and give contridicting information.
+Claude didn't just provide code - it explained concepts and reasoning, turning problem-solving into a learning opportunity.
+</div>
 
-### 3. **Over-Complicated Solutions**
-Sometime over complicate things. For example, I asked for a simple layout change but got a complex CSS grid solution.
+<div class="brutal-box-green">
+**ERROR DEBUGGING**
 
----
+Error debugging was always challenging for me. Claude helped identify and fix errors quickly, explaining the root causes along the way.
+</div>
+</div>
 
-## Future Applications
+<div>
+<h3>CHALLENGES</h3>
 
-### For Academic Work
+<div class="brutal-box-pink">
+**NOT ALWAYS CORRECT ON FIRST TRY**
 
-**Course Projects**:
-- Quick prototyping of ideas before deep diving
-- Debugging complex code errors
-- Understanding new libraries or frameworks
-- Getting explanations of academic concepts in simpler terms
+Some issues, like HTML rendering problems, required multiple iterations. Claude's first suggestion didn't always work, necessitating several alternative approaches.
+</div>
 
-**Research**:
-- Literature review assistance (summarizing papers)
-- Data analysis code generation
-- Writing assistance for reports
+<div class="brutal-box-pink">
+**CONTEXT LIMITATIONS**
 
----
+In longer conversations, Claude occasionally forgot earlier context or provided contradictory information that conflicted with previous suggestions.
+</div>
+
+<div class="brutal-box-pink">
+**OVER-COMPLICATED SOLUTIONS**
+
+Sometimes Claude over-engineered simple problems. For example, requesting a simple layout change resulted in an unnecessarily complex CSS grid solution.
+</div>
+</div>
+
+</div>
+
+<hr>
+
+## FUTURE APPLICATIONS
+
+<div class="two-column">
+
+<div class="brutal-box">
+**FOR ACADEMIC WORK**
+
+**Course Projects:**
+
+— Quick prototyping of ideas before deep implementation
+
+— Debugging complex code errors efficiently
+
+— Understanding new libraries or frameworks faster
+
+— Getting explanations of academic concepts in simpler terms
+
+**Research:**
+
+— Literature review assistance (summarizing papers)
+
+— Data analysis code generation
+
+— Writing assistance for reports and documentation
+</div>
+
+<div class="brutal-box">
+**FOR PROFESSIONAL DEVELOPMENT**
+
+**Skill Building:**
+
+— Learning new programming languages quickly
+
+— Understanding design patterns and best practices
+
+— Exploring unfamiliar technologies and frameworks
+
+**Project Work:**
+
+— Accelerating prototype development
+
+— Code review and optimization suggestions
+
+— Documentation generation
+</div>
+
+</div>
+
+<hr>
+
+<div class="brutal-box-green">
+**FINAL REFLECTION**
+
+GenAI tools like Claude have fundamentally changed my development workflow. While they're not perfect, the productivity gains and learning acceleration make them invaluable companions in software engineering education and practice. The key is understanding their limitations and using them as intelligent assistants rather than infallible oracles.
+</div>

@@ -2,99 +2,197 @@
   {
     "objectID": "project.html",
     "href": "project.html",
-    "title": "CTR Prediction Research",
+    "title": "CTR PREDICTION RESEARCH",
     "section": "",
-    "text": "This project focuses on Click-Through Rate (CTR) prediction for recommendation systems, exploring the integration of deep learning models with Large Language Models.\n\n\n\nImplement DeepFM models for CTR prediction\nIntegrate LLM embeddings into recommendation systems\nEvaluate hybrid architectures on real-world datasets\n\n\n\n\n\n\n\nHybrid recommendation system architecture\n\n\n\n\n\nWe use the FuxiCTR framework with the Avazu dataset to train and evaluate our models. The approach combines:\n\nNeural embedding layers for categorical features\nDeep learning architectures (DeepFM)\nLLM-based feature enhancement\n\n\n\n\n  \nPyTorch | TensorFlow | Python\n\n\n\n\n\n\nPreliminary performance comparison\n\n\n\n\n\n\nDataset compatibility and preprocessing\nModel training optimization on limited compute resources\nBalancing model complexity with inference speed\n\n\n\n\n\nFine-tune hybrid model architecture\nConduct comprehensive performance evaluation\nPrepare results for publication"
+    "text": "This project focuses on Click-Through Rate (CTR) prediction for recommendation systems, exploring the integration of deep learning models with Large Language Models.\n\nRESEARCH COLLABORATION\nWorking with Dr. Liu and Fu Bin from Shopee to advance recommendation system technology through hybrid deep learning and LLM approaches.\n\n\n\n\nDEEPFM\n\n\nMODEL ARCHITECTURE\n\n\n\n\nAVAZU\n\n\nDATASET\n\n\n\n\nLLM\n\n\nINTEGRATION"
   },
   {
     "objectID": "project.html#project-overview",
     "href": "project.html#project-overview",
-    "title": "CTR Prediction Research",
+    "title": "CTR PREDICTION RESEARCH",
     "section": "",
-    "text": "This project focuses on Click-Through Rate (CTR) prediction for recommendation systems, exploring the integration of deep learning models with Large Language Models.\n\n\n\nImplement DeepFM models for CTR prediction\nIntegrate LLM embeddings into recommendation systems\nEvaluate hybrid architectures on real-world datasets\n\n\n\n\n\n\n\nHybrid recommendation system architecture\n\n\n\n\n\nWe use the FuxiCTR framework with the Avazu dataset to train and evaluate our models. The approach combines:\n\nNeural embedding layers for categorical features\nDeep learning architectures (DeepFM)\nLLM-based feature enhancement\n\n\n\n\n  \nPyTorch | TensorFlow | Python\n\n\n\n\n\n\nPreliminary performance comparison\n\n\n\n\n\n\nDataset compatibility and preprocessing\nModel training optimization on limited compute resources\nBalancing model complexity with inference speed\n\n\n\n\n\nFine-tune hybrid model architecture\nConduct comprehensive performance evaluation\nPrepare results for publication"
+    "text": "This project focuses on Click-Through Rate (CTR) prediction for recommendation systems, exploring the integration of deep learning models with Large Language Models.\n\nRESEARCH COLLABORATION\nWorking with Dr. Liu and Fu Bin from Shopee to advance recommendation system technology through hybrid deep learning and LLM approaches.\n\n\n\n\nDEEPFM\n\n\nMODEL ARCHITECTURE\n\n\n\n\nAVAZU\n\n\nDATASET\n\n\n\n\nLLM\n\n\nINTEGRATION"
+  },
+  {
+    "objectID": "project.html#research-objectives",
+    "href": "project.html#research-objectives",
+    "title": "CTR PREDICTION RESEARCH",
+    "section": "RESEARCH OBJECTIVES",
+    "text": "RESEARCH OBJECTIVES\n\n\n\nDEEPFM IMPLEMENTATION\n\nImplement and optimize DeepFM models for accurate CTR prediction in large-scale recommendation systems.\n\n\n\nLLM INTEGRATION\n\nIntegrate Large Language Model embeddings to enhance feature representations and improve prediction accuracy.\n\n\n\nEVALUATION\n\nConduct comprehensive evaluation of hybrid architectures on real-world datasets with production-scale benchmarks."
+  },
+  {
+    "objectID": "project.html#system-architecture",
+    "href": "project.html#system-architecture",
+    "title": "CTR PREDICTION RESEARCH",
+    "section": "SYSTEM ARCHITECTURE",
+    "text": "SYSTEM ARCHITECTURE\n\n\n\nHybrid recommendation system architecture\n\n\n\nKEY INNOVATION\nCombining traditional deep learning CTR models with modern LLM embeddings to capture both structured patterns and semantic relationships in user behavior data."
+  },
+  {
+    "objectID": "project.html#methodology",
+    "href": "project.html#methodology",
+    "title": "CTR PREDICTION RESEARCH",
+    "section": "METHODOLOGY",
+    "text": "METHODOLOGY\nOur approach combines multiple cutting-edge techniques:\n\n\n1. NEURAL EMBEDDINGS\nImplement neural embedding layers for categorical features, transforming sparse high-dimensional data into dense representations.\n\n\n2. DEEPFM ARCHITECTURE\nUtilize DeepFM models that combine factorization machines with deep neural networks for both low and high-order feature interactions.\n\n\n3. LLM ENHANCEMENT\nIntegrate Large Language Model embeddings to capture semantic information and improve feature quality.\n\n\n4. HYBRID TRAINING\nTrain hybrid models using the FuxiCTR framework with the Avazu dataset, optimizing for both accuracy and efficiency."
+  },
+  {
+    "objectID": "project.html#technology-stack",
+    "href": "project.html#technology-stack",
+    "title": "CTR PREDICTION RESEARCH",
+    "section": "TECHNOLOGY STACK",
+    "text": "TECHNOLOGY STACK\n\n\nPYTORCH\n\n\nTENSORFLOW\n\n\nPYTHON\n\n\nFUXICTR FRAMEWORK"
+  },
+  {
+    "objectID": "project.html#preliminary-results",
+    "href": "project.html#preliminary-results",
+    "title": "CTR PREDICTION RESEARCH",
+    "section": "PRELIMINARY RESULTS",
+    "text": "PRELIMINARY RESULTS\n\n\n\nPreliminary performance comparison"
+  },
+  {
+    "objectID": "project.html#challenges-solutions",
+    "href": "project.html#challenges-solutions",
+    "title": "CTR PREDICTION RESEARCH",
+    "section": "CHALLENGES & SOLUTIONS",
+    "text": "CHALLENGES & SOLUTIONS\n\n\nDATA PREPROCESSING\nChallenge: Dataset compatibility and preprocessing complexities\nSolution: Developed custom data pipelines to handle Avazu dataset format and ensure compatibility with FuxiCTR framework.\n\n\nCOMPUTE RESOURCES\nChallenge: Model training optimization on limited compute resources\nSolution: Implemented efficient training strategies, batch optimization, and leveraged cloud computing for intensive training phases.\n\n\nMODEL COMPLEXITY\nChallenge: Balancing model complexity with inference speed\nSolution: Explored model compression techniques and optimized architecture to maintain accuracy while improving latency."
+  },
+  {
+    "objectID": "project.html#next-steps",
+    "href": "project.html#next-steps",
+    "title": "CTR PREDICTION RESEARCH",
+    "section": "NEXT STEPS",
+    "text": "NEXT STEPS\n— Fine-tune hybrid model architecture for optimal performance\n— Conduct comprehensive performance evaluation across multiple metrics\n— Compare results with baseline models and state-of-the-art approaches\n— Prepare research findings for academic publication\n— Explore deployment strategies for production environments"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Koh Zhi Rong",
     "section": "",
-    "text": "Software Engineering Student | ML Researcher"
+    "text": "SOFTWARE ENGINEER | ML RESEARCHER"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Koh Zhi Rong",
-    "section": "About Me",
-    "text": "About Me\nHi! I’m Koh Zhi Rong, a Software Engineering student at Singapore Institute of Technology.\nI’m interested in machine learning, full-stack development, and data visualization. Currently, I’m working on research involving CTR prediction and recommendation systems.\n\n\n\nAt Singapore Institute of Technology\n\n\n\nBackground\n\nEducation: Software Engineering at SIT\nExperience: Software Engineering Intern at Lumi5 Labs\nInterests: Machine Learning, Web Development, Data Analysis\n\n\n\nTechnical Skills\n\n🐍 Python\n⚛️ React / Next.js\n🤖 Machine Learning / TensorFlow\n🐳 Docker\n🗄️ PostgreSQL\n☁️ AWS\n\n\n\nExperience\nLumi5 Labs - Software Engineering Intern - Built full-stack financial portfolio management applications - Worked with Next.js, PostgreSQL, Docker, and CI/CD pipelines\nCurrent Research - ML Research on CTR Prediction - Collaborating with Dr. Liu and Fu Bin from Shopee - Working with DeepFM models and LLM integration\nFeel free to explore my projects and visualizations on this site.\n\n\nContact\n\n📧 Email: zhirong0613@gmail.com\n💻 GitHub: github.com/sitkzhirong\n💼 LinkedIn: linkedin.com/in/koh-zhi-rong"
+    "section": "ABOUT ME",
+    "text": "ABOUT ME\nHi! I’m Koh Zhi Rong, a Software Engineering student at Singapore Institute of Technology.\nI’m interested in machine learning, full-stack development, and data visualization. Currently, I’m working on research involving CTR prediction and recommendation systems.\n\n\n\nAt Singapore Institute of Technology\n\n\n\n\nEDUCATION\nSoftware Engineering at Singapore Institute of Technology (SIT)\n\n\nPAST ROLE\nSoftware Engineering Intern at Lumi5 Labs\n\n\nRESEARCH\nMachine Learning - CTR Prediction & Recommendation Systems"
+  },
+  {
+    "objectID": "index.html#technical-skills",
+    "href": "index.html#technical-skills",
+    "title": "Koh Zhi Rong",
+    "section": "TECHNICAL SKILLS",
+    "text": "TECHNICAL SKILLS\n\n\nPYTHON\n\n\nREACT\n\n\nNEXT.JS\n\n\nTENSORFLOW\n\n\nPYTORCH\n\n\nDOCKER\n\n\nPOSTGRESQL\n\n\nAWS\n\n\nDATA VIZ\n\n\nCI/CD"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Koh Zhi Rong",
+    "section": "EXPERIENCE",
+    "text": "EXPERIENCE\n\n\n\nCURRENT\n\n\nML RESEARCH\n\n\nCTR PREDICTION\n\n— Implementing DeepFM models for click-through rate prediction\n— Integrating Large Language Model embeddings into recommendation systems\n— Working with Dr. Liu and Fu Bin from Shopee\n— Using FuxiCTR framework and Avazu dataset\n\n\n\n2024\n\n\nSOFTWARE ENGINEERING INTERN\n\n\nLUMI5 LABS\n\n— Built full-stack financial portfolio management applications\n— Developed features using Next.js, React, and TypeScript\n— Implemented backend APIs with PostgreSQL database\n— Set up Docker containerization and CI/CD pipelines\n— Collaborated with cross-functional teams in agile environment\n\n\n\n2023 - PRESENT\n\n\nSOFTWARE ENGINEERING STUDENT\n\n\nSINGAPORE INSTITUTE OF TECHNOLOGY\n\n— Studying software engineering with focus on ML and full-stack development\n— Completed projects in data visualization, fintech, and web development\n— Active in research and coursework involving modern frameworks"
+  },
+  {
+    "objectID": "index.html#connect",
+    "href": "index.html#connect",
+    "title": "Koh Zhi Rong",
+    "section": "CONNECT",
+    "text": "CONNECT\n\n EMAIL   GITHUB   LINKEDIN"
   },
   {
     "objectID": "reflection.html",
     "href": "reflection.html",
-    "title": "Reflection on the use of GenAI",
+    "title": "GENAI REFLECTION",
     "section": "",
-    "text": "For this assessment, I extensively used Claude (by Anthropic) as GenAI tool to help build this Quarto website. This reflection on the problems I encountered, and thoughts on how GenAI will shape my future work."
-  },
-  {
-    "objectID": "reflection.html#introduction",
-    "href": "reflection.html#introduction",
-    "title": "Reflection on the use of GenAI",
-    "section": "",
-    "text": "For this assessment, I extensively used Claude (by Anthropic) as GenAI tool to help build this Quarto website. This reflection on the problems I encountered, and thoughts on how GenAI will shape my future work."
+    "text": "OVERVIEW\nFor this assessment, I extensively used Claude (by Anthropic) as my GenAI tool to help build this Quarto website. This is my reflection on the problems I encountered and thoughts on how GenAI will shape my future work."
   },
   {
     "objectID": "reflection.html#choice-of-genai-tool",
     "href": "reflection.html#choice-of-genai-tool",
-    "title": "Reflection on the use of GenAI",
-    "section": "Choice of GenAI Tool",
-    "text": "Choice of GenAI Tool\n\nWhy Claude?\nI chose Claude (via claude.ai) as my main GenAI assistant for few reasons:\n\nStrong coding capabilities: From my expereience if have the best coding capabilities among available GenAI tools\nLong context window: Can handle long conversation with good memory of my past inputs\n\nI also occasionally used ChatGPT and Gemini , but Claude was my main tool."
+    "title": "GENAI REFLECTION",
+    "section": "CHOICE OF GENAI TOOL",
+    "text": "CHOICE OF GENAI TOOL\n\nWHY CLAUDE?\nI chose Claude (via claude.ai) as my main GenAI assistant for several compelling reasons:\n— Strong Coding Capabilities: Best-in-class coding abilities among available GenAI tools\n— Long Context Window: Handles extended conversations with excellent memory retention\nI also occasionally used ChatGPT and Gemini, but Claude was my primary development assistant."
   },
   {
     "objectID": "reflection.html#how-genai-helped-me",
     "href": "reflection.html#how-genai-helped-me",
-    "title": "Reflection on the use of GenAI",
-    "section": "How GenAI Helped Me",
-    "text": "How GenAI Helped Me\n\n1. HTML/CSS Styling Issues\nChallenge: HTML and CCS has been a hasel to me in the past, and I struggled to get the layout and styling right for my Quarto site. Although it is not difficult it would require time to research and test.\nHow Claude helped: - Quickly able to bring my idea to life with working HTML/CSS snippets - Able to iterate rapidly by asking for modifications\nExample transformation:\n&lt;!-- This didn't work --&gt;\n&lt;div style=\"text-align: center;\"&gt;\n  &lt;img src=\"image.jpg\" style=\"width: 250px;\"&gt;\n&lt;/div&gt;\n\n&lt;!-- Claude suggested this --&gt;\n![](image.jpg){width=250px style=\"...\"}"
+    "title": "GENAI REFLECTION",
+    "section": "HOW GENAI HELPED ME",
+    "text": "HOW GENAI HELPED ME\n\nHTML/CSS STYLING ISSUES\nChallenge: HTML and CSS have been challenging for me in the past. Although not inherently difficult, getting the layout and styling right requires significant time for research and testing.\nHow Claude helped:\n— Quickly transformed my ideas into working HTML/CSS snippets\n— Enabled rapid iteration through simple modification requests\nExample transformation:\n&lt;!-- This didn't work --&gt;\n&lt;div style=\"text-align: center;\"&gt;\n  &lt;img src=\"image.jpg\" style=\"width: 250px;\"&gt;\n&lt;/div&gt;\n\n&lt;!-- Claude suggested this --&gt;\n![](image.jpg){width=250px style=\"...\"}"
   },
   {
-    "objectID": "reflection.html#benefits-of-using-genai",
-    "href": "reflection.html#benefits-of-using-genai",
-    "title": "Reflection on the use of GenAI",
-    "section": "Benefits of Using GenAI",
-    "text": "Benefits of Using GenAI\n\n1. Faster Problem-Solving\nInstead of searching through the web and stackoverflow, it helpped saved me time by getting direct answers.\n\n\n2. Learning While Doing\nClaude didn’t just give me code, it is able to explain concepts.\n\n\n3. Error Debugging\nError debugging was always a problem for me. Claude helped me identify and fix errors quickly."
-  },
-  {
-    "objectID": "reflection.html#challenges-of-using-genai",
-    "href": "reflection.html#challenges-of-using-genai",
-    "title": "Reflection on the use of GenAI",
-    "section": "Challenges of Using GenAI",
-    "text": "Challenges of Using GenAI\n\n1. Not Always Correct on First Try\nThe HTML rendering issue took multiple iterations to solve. Claude’s first suggestion didn’t work, and we had to try several approaches.\n\n\n2. Context Limitations\nSometimes Claude forgot some parts of our conversation and give contridicting information.\n\n\n3. Over-Complicated Solutions\nSometime over complicate things. For example, I asked for a simple layout change but got a complex CSS grid solution."
+    "objectID": "reflection.html#benefits-vs-challenges",
+    "href": "reflection.html#benefits-vs-challenges",
+    "title": "GENAI REFLECTION",
+    "section": "BENEFITS VS CHALLENGES",
+    "text": "BENEFITS VS CHALLENGES\n\n\n\nBENEFITS\n\n\nFASTER PROBLEM-SOLVING\nInstead of searching through documentation and Stack Overflow, Claude provided direct answers, saving significant development time and reducing context switching.\n\n\nLEARNING WHILE DOING\nClaude didn’t just provide code - it explained concepts and reasoning, turning problem-solving into a learning opportunity.\n\n\nERROR DEBUGGING\nError debugging was always challenging for me. Claude helped identify and fix errors quickly, explaining the root causes along the way.\n\n\n\n\nCHALLENGES\n\n\nNOT ALWAYS CORRECT ON FIRST TRY\nSome issues, like HTML rendering problems, required multiple iterations. Claude’s first suggestion didn’t always work, necessitating several alternative approaches.\n\n\nCONTEXT LIMITATIONS\nIn longer conversations, Claude occasionally forgot earlier context or provided contradictory information that conflicted with previous suggestions.\n\n\nOVER-COMPLICATED SOLUTIONS\nSometimes Claude over-engineered simple problems. For example, requesting a simple layout change resulted in an unnecessarily complex CSS grid solution."
   },
   {
     "objectID": "reflection.html#future-applications",
     "href": "reflection.html#future-applications",
-    "title": "Reflection on the use of GenAI",
-    "section": "Future Applications",
-    "text": "Future Applications\n\nFor Academic Work\nCourse Projects: - Quick prototyping of ideas before deep diving - Debugging complex code errors - Understanding new libraries or frameworks - Getting explanations of academic concepts in simpler terms\nResearch: - Literature review assistance (summarizing papers) - Data analysis code generation - Writing assistance for reports"
+    "title": "GENAI REFLECTION",
+    "section": "FUTURE APPLICATIONS",
+    "text": "FUTURE APPLICATIONS\n\n\nFOR ACADEMIC WORK\nCourse Projects:\n— Quick prototyping of ideas before deep implementation\n— Debugging complex code errors efficiently\n— Understanding new libraries or frameworks faster\n— Getting explanations of academic concepts in simpler terms\nResearch:\n— Literature review assistance (summarizing papers)\n— Data analysis code generation\n— Writing assistance for reports and documentation\n\n\nFOR PROFESSIONAL DEVELOPMENT\nSkill Building:\n— Learning new programming languages quickly\n— Understanding design patterns and best practices\n— Exploring unfamiliar technologies and frameworks\nProject Work:\n— Accelerating prototype development\n— Code review and optimization suggestions\n— Documentation generation\n\n\n\n\nFINAL REFLECTION\nGenAI tools like Claude have fundamentally changed my development workflow. While they’re not perfect, the productivity gains and learning acceleration make them invaluable companions in software engineering education and practice. The key is understanding their limitations and using them as intelligent assistants rather than infallible oracles."
   },
   {
     "objectID": "data-visualization.html",
     "href": "data-visualization.html",
-    "title": "Data Visualization",
+    "title": "DATA VISUALIZATION",
     "section": "",
-    "text": "This visualization shows the projected growth of CPF (Central Provident Fund) balances over time, created as part of my database systems coursework.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis line chart displays quantitative financial data with the following numeric components:\n\nX-axis: Age in years (25 to 65) - continuous numeric variable\nY-axis: Account balance in Singapore Dollars (SGD) - monetary values\nThree line series: Each representing a different CPF account type with their respective balances\n\nThe visualization encodes real numerical values showing how money grows over time based on compound interest calculations.\n\n\n\n\n\n\n\n\nAge\nOrdinary Account\nSpecial Account\nMediSave Account\n\n\n\n\n25\n$0\n$0\n$0\n\n\n30\n$55,452\n$39,715\n$19,858\n\n\n35\n$127,023\n$94,361\n$47,180\n\n\n40\n$218,237\n$168,178\n$84,089\n\n\n45\n$333,308\n$266,490\n$133,245\n\n\n50\n$477,260\n$395,956\n$197,978\n\n\n55\n$656,080\n$564,896\n$282,448\n\n\n60\n$876,890\n$783,682\n$391,841\n\n\n65\n$1,148,155\n$1,065,222\n$532,611\n\n\n\n\n\n\n\n\nThe numerical data is calculated based on:\nOfficial rates: - CPF contribution rates from CPF Board (2024) - Interest rates: OA (2.5% p.a.), SA (4% p.a.), MA (4% p.a.)\nCalculation assumptions: - Starting monthly salary: SGD $3,500 - Annual salary increment: 3% - Contribution percentages: OA (23%), SA (16%), MA (8%) - Time horizon: 40 years (age 25-65) - No voluntary contributions or withdrawals\nAll values are computed using compound interest formulas with these parameters.\n\n\n\nI chose a line chart because:\n\nTime-series data: Line charts excel at showing how numeric values change over continuous time periods\nTrend visibility: The upward curves clearly show exponential growth from compound interest - the steeper slopes in later years are immediately visible\nMultiple comparisons: Three distinct colors allow easy comparison of how different account types grow at different rates\nContinuous nature: Age progression is continuous, not discrete - line charts represent this better than bar charts\nFinancial convention: Line charts are standard for showing investment growth, making interpretation intuitive\nNumeric relationships: The visual distance between lines represents actual dollar differences\n\nWhy NOT alternatives:\n\n❌ Bar chart: Would create visual clutter with 40+ bars per account type\n❌ Stacked area chart: Makes it difficult to read individual account values accurately\n\n❌ Scatter plot: Would suggest discrete data points rather than continuous progression\n❌ Pie chart: Cannot show changes over time\n\n\n\n\n\n\nThis visualization was created for my Fintech Finance Course at SIT. The assignment involved:\n\nPlanning retirement for a hypothetical individual\nDisplay the impact of compound interest over time\nVisualize the results meaningfully\n\n\n\n\nThe visualization revealed something surprising: the last 10 years of savings (age 55-65) contribute almost as much absolute value as the first 20 years (age 25-45).\nWhy? Compound interest. By year 30, you’re earning interest on decades of contributions AND their accumulated interest. The raw numbers showed this, but the upward curving lines made it intuitively clear.\n\n\n\n\nNumerical findings:\n\nCompound interest power:\n\nAge 30 (5 years): Total ≈ $115,000\nAge 50 (25 years): Total ≈ $800,000\nInsight: The middle 20 years contribute 7x more than the first 5 years\n\nAccount type differences:\n\nSpecial Account grows at 4% vs. Ordinary Account at 2.5%\nOver 40 years: This 1.5% difference creates over $80,000 additional value\nTakeaway: Small percentage differences compound dramatically over time\n\nEarly vs. late contributions:\n\n$1,000 contributed at age 25 grows to ~$2,685 by age 65 (2.69x)\n$1,000 contributed at age 45 grows to ~$1,480 by age 65 (1.48x)\nConclusion: Starting early provides 82% more growth per dollar invested\n\n\n\n\n\nThis project helped me understand:\n\nData visualization principles: How to choose appropriate chart types for quantitative time-series data\nCompound interest mathematics: The exponential nature of investment growth with concrete numbers\nEffective communication: Transforming raw numerical data into clear, actionable insights\nFinancial literacy: Understanding Singapore’s CPF system through quantitative modeling"
+    "text": "PROJECT CONTEXT\nThis visualization was created for my Fintech Finance Course at SIT, demonstrating the long-term impact of compound interest on Singapore’s Central Provident Fund (CPF) savings."
   },
   {
     "objectID": "data-visualization.html#financial-planning-visualization",
     "href": "data-visualization.html#financial-planning-visualization",
-    "title": "Data Visualization",
+    "title": "DATA VISUALIZATION",
     "section": "",
-    "text": "This visualization shows the projected growth of CPF (Central Provident Fund) balances over time, created as part of my database systems coursework.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis line chart displays quantitative financial data with the following numeric components:\n\nX-axis: Age in years (25 to 65) - continuous numeric variable\nY-axis: Account balance in Singapore Dollars (SGD) - monetary values\nThree line series: Each representing a different CPF account type with their respective balances\n\nThe visualization encodes real numerical values showing how money grows over time based on compound interest calculations.\n\n\n\n\n\n\n\n\nAge\nOrdinary Account\nSpecial Account\nMediSave Account\n\n\n\n\n25\n$0\n$0\n$0\n\n\n30\n$55,452\n$39,715\n$19,858\n\n\n35\n$127,023\n$94,361\n$47,180\n\n\n40\n$218,237\n$168,178\n$84,089\n\n\n45\n$333,308\n$266,490\n$133,245\n\n\n50\n$477,260\n$395,956\n$197,978\n\n\n55\n$656,080\n$564,896\n$282,448\n\n\n60\n$876,890\n$783,682\n$391,841\n\n\n65\n$1,148,155\n$1,065,222\n$532,611\n\n\n\n\n\n\n\n\nThe numerical data is calculated based on:\nOfficial rates: - CPF contribution rates from CPF Board (2024) - Interest rates: OA (2.5% p.a.), SA (4% p.a.), MA (4% p.a.)\nCalculation assumptions: - Starting monthly salary: SGD $3,500 - Annual salary increment: 3% - Contribution percentages: OA (23%), SA (16%), MA (8%) - Time horizon: 40 years (age 25-65) - No voluntary contributions or withdrawals\nAll values are computed using compound interest formulas with these parameters.\n\n\n\nI chose a line chart because:\n\nTime-series data: Line charts excel at showing how numeric values change over continuous time periods\nTrend visibility: The upward curves clearly show exponential growth from compound interest - the steeper slopes in later years are immediately visible\nMultiple comparisons: Three distinct colors allow easy comparison of how different account types grow at different rates\nContinuous nature: Age progression is continuous, not discrete - line charts represent this better than bar charts\nFinancial convention: Line charts are standard for showing investment growth, making interpretation intuitive\nNumeric relationships: The visual distance between lines represents actual dollar differences\n\nWhy NOT alternatives:\n\n❌ Bar chart: Would create visual clutter with 40+ bars per account type\n❌ Stacked area chart: Makes it difficult to read individual account values accurately\n\n❌ Scatter plot: Would suggest discrete data points rather than continuous progression\n❌ Pie chart: Cannot show changes over time\n\n\n\n\n\n\nThis visualization was created for my Fintech Finance Course at SIT. The assignment involved:\n\nPlanning retirement for a hypothetical individual\nDisplay the impact of compound interest over time\nVisualize the results meaningfully\n\n\n\n\nThe visualization revealed something surprising: the last 10 years of savings (age 55-65) contribute almost as much absolute value as the first 20 years (age 25-45).\nWhy? Compound interest. By year 30, you’re earning interest on decades of contributions AND their accumulated interest. The raw numbers showed this, but the upward curving lines made it intuitively clear.\n\n\n\n\nNumerical findings:\n\nCompound interest power:\n\nAge 30 (5 years): Total ≈ $115,000\nAge 50 (25 years): Total ≈ $800,000\nInsight: The middle 20 years contribute 7x more than the first 5 years\n\nAccount type differences:\n\nSpecial Account grows at 4% vs. Ordinary Account at 2.5%\nOver 40 years: This 1.5% difference creates over $80,000 additional value\nTakeaway: Small percentage differences compound dramatically over time\n\nEarly vs. late contributions:\n\n$1,000 contributed at age 25 grows to ~$2,685 by age 65 (2.69x)\n$1,000 contributed at age 45 grows to ~$1,480 by age 65 (1.48x)\nConclusion: Starting early provides 82% more growth per dollar invested\n\n\n\n\n\nThis project helped me understand:\n\nData visualization principles: How to choose appropriate chart types for quantitative time-series data\nCompound interest mathematics: The exponential nature of investment growth with concrete numbers\nEffective communication: Transforming raw numerical data into clear, actionable insights\nFinancial literacy: Understanding Singapore’s CPF system through quantitative modeling"
+    "text": "PROJECT CONTEXT\nThis visualization was created for my Fintech Finance Course at SIT, demonstrating the long-term impact of compound interest on Singapore’s Central Provident Fund (CPF) savings."
+  },
+  {
+    "objectID": "data-visualization.html#what-was-visualized",
+    "href": "data-visualization.html#what-was-visualized",
+    "title": "DATA VISUALIZATION",
+    "section": "WHAT WAS VISUALIZED",
+    "text": "WHAT WAS VISUALIZED\n\n\nX-AXIS\nAge in years (25 to 65) - continuous numeric variable representing career progression\n\n\nY-AXIS\nAccount balance in SGD - monetary values showing accumulated savings over time\n\n\nTHREE SERIES\nOrdinary, Special, MediSave Accounts - each representing different CPF account types with distinct interest rates\n\n\n\nSAMPLE NUMERICAL DATA\n\n\n\n\n\nAge\nOrdinary Account\nSpecial Account\nMediSave Account\n\n\n\n\n25\n$0\n$0\n$0\n\n\n30\n$55,452\n$39,715\n$19,858\n\n\n35\n$127,023\n$94,361\n$47,180\n\n\n40\n$218,237\n$168,178\n$84,089\n\n\n45\n$333,308\n$266,490\n$133,245\n\n\n50\n$477,260\n$395,956\n$197,978\n\n\n55\n$656,080\n$564,896\n$282,448\n\n\n60\n$876,890\n$783,682\n$391,841\n\n\n65\n$1,148,155\n$1,065,222\n$532,611"
+  },
+  {
+    "objectID": "data-visualization.html#data-source-and-assumptions",
+    "href": "data-visualization.html#data-source-and-assumptions",
+    "title": "DATA VISUALIZATION",
+    "section": "DATA SOURCE AND ASSUMPTIONS",
+    "text": "DATA SOURCE AND ASSUMPTIONS\n\n\nOFFICIAL RATES\n— CPF contribution rates from CPF Board (2024)\n— Interest rates: OA (2.5% p.a.), SA (4% p.a.), MA (4% p.a.)\n— Based on actual Singapore government policies\n\n\nCALCULATION ASSUMPTIONS\n— Starting monthly salary: SGD $3,500\n— Annual salary increment: 3%\n— Contribution percentages: OA (23%), SA (16%), MA (8%)\n— Time horizon: 40 years (age 25-65)\n— No voluntary contributions or withdrawals"
+  },
+  {
+    "objectID": "data-visualization.html#rationale-for-visualization-method",
+    "href": "data-visualization.html#rationale-for-visualization-method",
+    "title": "DATA VISUALIZATION",
+    "section": "RATIONALE FOR VISUALIZATION METHOD",
+    "text": "RATIONALE FOR VISUALIZATION METHOD\n\nWHY LINE CHART?\nI chose a line chart because it’s the optimal choice for displaying time-series financial data with multiple comparisons.\n\n\n\nADVANTAGES OF LINE CHART\nTime-series excellence: Shows how numeric values change over continuous time periods\nTrend visibility: Upward curves clearly show exponential growth - steeper slopes in later years are immediately visible\nMultiple comparisons: Three distinct colors enable easy comparison of different account growth rates\nFinancial convention: Standard for investment growth visualization, making interpretation intuitive\n\n\nWHY NOT ALTERNATIVES\nBar chart: Would create visual clutter with 40+ bars per account type\nStacked area chart: Makes it difficult to read individual account values accurately\nScatter plot: Would suggest discrete data points rather than continuous progression\nPie chart: Cannot show changes over time"
+  },
+  {
+    "objectID": "data-visualization.html#key-insight-discovered",
+    "href": "data-visualization.html#key-insight-discovered",
+    "title": "DATA VISUALIZATION",
+    "section": "KEY INSIGHT DISCOVERED",
+    "text": "KEY INSIGHT DISCOVERED\n\nThe visualization revealed something surprising: the last 10 years of savings (age 55-65) contribute almost as much absolute value as the first 20 years (age 25-45).\nWhy? Compound interest. By year 30, you’re earning interest on decades of contributions AND their accumulated interest. The raw numbers showed this, but the upward curving lines made it intuitively clear."
+  },
+  {
+    "objectID": "data-visualization.html#key-insights-from-the-data",
+    "href": "data-visualization.html#key-insights-from-the-data",
+    "title": "DATA VISUALIZATION",
+    "section": "KEY INSIGHTS FROM THE DATA",
+    "text": "KEY INSIGHTS FROM THE DATA\n\n\nCOMPOUND INTEREST POWER\nAge 30 (5 years): Total ≈ $115,000\nAge 50 (25 years): Total ≈ $800,000\nINSIGHT: The middle 20 years contribute 7x more than the first 5 years\n\n\nACCOUNT TYPE DIFFERENCES\nSpecial Account: 4% interest\nOrdinary Account: 2.5% interest\nTAKEAWAY: This 1.5% difference creates over $80,000 additional value over 40 years\n\n\nEARLY VS LATE CONTRIBUTIONS\n$1,000 at age 25: grows to ~$2,685 (2.69x)\n$1,000 at age 45: grows to ~$1,480 (1.48x)\nCONCLUSION: Starting early provides 82% more growth per dollar invested"
+  },
+  {
+    "objectID": "data-visualization.html#educational-value",
+    "href": "data-visualization.html#educational-value",
+    "title": "DATA VISUALIZATION",
+    "section": "EDUCATIONAL VALUE",
+    "text": "EDUCATIONAL VALUE\n\n\nDATA VISUALIZATION PRINCIPLES\nLearned how to choose appropriate chart types for quantitative time-series data and apply effective visual encoding.\n\n\nCOMPOUND INTEREST MATHEMATICS\nUnderstood the exponential nature of investment growth through concrete numerical examples.\n\n\nEFFECTIVE COMMUNICATION\nMastered transforming raw numerical data into clear, actionable insights that non-technical audiences can understand.\n\n\nFINANCIAL LITERACY\nGained deep understanding of Singapore’s CPF system through hands-on quantitative modeling and analysis."
   },
   {
     "objectID": "data-visualization.html#conclusion",
     "href": "data-visualization.html#conclusion",
-    "title": "Data Visualization",
-    "section": "Conclusion",
-    "text": "Conclusion\nThis visualization successfully transforms quantitative financial data (ages, currency amounts, interest rates) into a visual format that reveals patterns invisible in raw numbers. The line chart immediately communicates that:\n\nEarly contributions have disproportionate impact (visible in curve accumulation)\nHigher interest accounts grow significantly faster (visible in line separation)\nGrowth accelerates exponentially over time (visible in steepening curves)\n\nThe key achievement: converting hundreds of individual numeric calculations into a single comprehensible story about the mathematical power of compound interest and the importance of early financial planning."
+    "title": "DATA VISUALIZATION",
+    "section": "CONCLUSION",
+    "text": "CONCLUSION\nEarly contributions have disproportionate impact - visible in curve accumulation patterns\nHigher interest accounts grow significantly faster - visible in progressive line separation\nGrowth accelerates exponentially over time - visible in steepening curves toward retirement age\nThe key achievement: converting hundreds of individual numeric calculations into a single comprehensible story about the mathematical power of compound interest and the importance of early financial planning."
   }
 ]

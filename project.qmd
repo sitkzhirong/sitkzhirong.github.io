@@ -1,47 +1,154 @@
 ---
-title: "CTR Prediction Research"
+title: "CTR PREDICTION RESEARCH"
 ---
 
-## Project Overview
+## PROJECT OVERVIEW
 
 This project focuses on Click-Through Rate (CTR) prediction for recommendation systems, exploring the integration of deep learning models with Large Language Models.
 
-### Objectives
+<div class="brutal-box-green">
+**RESEARCH COLLABORATION**
 
-- Implement DeepFM models for CTR prediction
-- Integrate LLM embeddings into recommendation systems
-- Evaluate hybrid architectures on real-world datasets
+Working with Dr. Liu and Fu Bin from Shopee to advance recommendation system technology through hybrid deep learning and LLM approaches.
+</div>
 
-### Architecture Overview
+<div class="stats-grid">
+<div class="stat-box">
+<div class="stat-value">DEEPFM</div>
+<div class="stat-label">MODEL ARCHITECTURE</div>
+</div>
+<div class="stat-box">
+<div class="stat-value">AVAZU</div>
+<div class="stat-label">DATASET</div>
+</div>
+<div class="stat-box">
+<div class="stat-value">LLM</div>
+<div class="stat-label">INTEGRATION</div>
+</div>
+</div>
 
-![Hybrid recommendation system architecture](images/profile/architecture-diagram.png){fig-align="center" width=700px style="border-radius: 8px; border: 2px solid #ddd;"}
+<hr>
 
-### Methodology
+## RESEARCH OBJECTIVES
 
-We use the FuxiCTR framework with the Avazu dataset to train and evaluate our models. The approach combines:
+<ol class="numbered-list">
+<li>
+<h4>DEEPFM IMPLEMENTATION</h4>
+Implement and optimize DeepFM models for accurate CTR prediction in large-scale recommendation systems.
+</li>
 
-1. Neural embedding layers for categorical features
-2. Deep learning architectures (DeepFM)
-3. LLM-based feature enhancement
+<li>
+<h4>LLM INTEGRATION</h4>
+Integrate Large Language Model embeddings to enhance feature representations and improve prediction accuracy.
+</li>
 
-### Technologies Used
+<li>
+<h4>EVALUATION</h4>
+Conduct comprehensive evaluation of hybrid architectures on real-world datasets with production-scale benchmarks.
+</li>
+</ol>
 
-![PyTorch](images/profile/pytorch.png){width=80px} ![TensorFlow](images/profile/tensorflow.svg.png){width=80px} ![Python](images/profile/python.png){width=80px}
+<hr>
 
-**PyTorch** | **TensorFlow** | **Python**
+## SYSTEM ARCHITECTURE
 
-### Results Preview
+![Hybrid recommendation system architecture](images/profile/architecture-diagram.png){fig-align="center" width=100% style="border: 4px solid #ffffff;"}
 
-![Preliminary performance comparison](images/profile/results-chart.png){fig-align="center" width=650px style="border-radius: 8px;"}
+<div class="brutal-box-green">
+**KEY INNOVATION**
 
-### Challenges
+Combining traditional deep learning CTR models with modern LLM embeddings to capture both structured patterns and semantic relationships in user behavior data.
+</div>
 
-- Dataset compatibility and preprocessing
-- Model training optimization on limited compute resources
-- Balancing model complexity with inference speed
+<hr>
 
-### Next Steps
+## METHODOLOGY
 
-- Fine-tune hybrid model architecture
-- Conduct comprehensive performance evaluation
-- Prepare results for publication
+Our approach combines multiple cutting-edge techniques:
+
+<div class="brutal-grid-2">
+<div class="brutal-box">
+**1. NEURAL EMBEDDINGS**
+
+Implement neural embedding layers for categorical features, transforming sparse high-dimensional data into dense representations.
+</div>
+
+<div class="brutal-box">
+**2. DEEPFM ARCHITECTURE**
+
+Utilize DeepFM models that combine factorization machines with deep neural networks for both low and high-order feature interactions.
+</div>
+
+<div class="brutal-box">
+**3. LLM ENHANCEMENT**
+
+Integrate Large Language Model embeddings to capture semantic information and improve feature quality.
+</div>
+
+<div class="brutal-box">
+**4. HYBRID TRAINING**
+
+Train hybrid models using the FuxiCTR framework with the Avazu dataset, optimizing for both accuracy and efficiency.
+</div>
+</div>
+
+<hr>
+
+## TECHNOLOGY STACK
+
+<ul class="tech-list">
+<li>PYTORCH</li>
+<li>TENSORFLOW</li>
+<li>PYTHON</li>
+<li>FUXICTR FRAMEWORK</li>
+</ul>
+
+<hr>
+
+## PRELIMINARY RESULTS
+
+![Preliminary performance comparison](images/profile/results-chart.png){fig-align="center" width=100% style="border: 3px solid #ffffff;"}
+
+<hr>
+
+## CHALLENGES & SOLUTIONS
+
+<div class="brutal-grid">
+<div class="brutal-box-yellow">
+**DATA PREPROCESSING**
+
+**Challenge:** Dataset compatibility and preprocessing complexities
+
+**Solution:** Developed custom data pipelines to handle Avazu dataset format and ensure compatibility with FuxiCTR framework.
+</div>
+
+<div class="brutal-box-yellow">
+**COMPUTE RESOURCES**
+
+**Challenge:** Model training optimization on limited compute resources
+
+**Solution:** Implemented efficient training strategies, batch optimization, and leveraged cloud computing for intensive training phases.
+</div>
+
+<div class="brutal-box-yellow">
+**MODEL COMPLEXITY**
+
+**Challenge:** Balancing model complexity with inference speed
+
+**Solution:** Explored model compression techniques and optimized architecture to maintain accuracy while improving latency.
+</div>
+</div>
+
+<hr>
+
+## NEXT STEPS
+
+— Fine-tune hybrid model architecture for optimal performance
+
+— Conduct comprehensive performance evaluation across multiple metrics
+
+— Compare results with baseline models and state-of-the-art approaches
+
+— Prepare research findings for academic publication
+
+— Explore deployment strategies for production environments
